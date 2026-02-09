@@ -29,6 +29,10 @@ Temporary Items
 .apdisk
 *.icloud
 
+# Angular
+.angular/
+node_modules/
+
 
 ########################################
 # Windows

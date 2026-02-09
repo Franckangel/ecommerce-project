@@ -2,7 +2,7 @@ package com.luv2code.ecommerce.entity;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name="state")
