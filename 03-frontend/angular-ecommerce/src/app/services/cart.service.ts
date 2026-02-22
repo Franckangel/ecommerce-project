@@ -16,8 +16,7 @@ export class CartService {
 
   constructor() {
     // read data from storage
-    let raw = this.storage.getItem("cartItems");
-    let data = raw ? JSON.parse(raw) : null;
+    let data = JSON.parse(this.storage.getItem("cartItems")!);
 
     if (data != null) {
       this.cartItems = data;
